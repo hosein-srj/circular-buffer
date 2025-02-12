@@ -111,7 +111,7 @@ If you’d like to contribute:
 
 Developed by **[Your Name]**  
 📧 Email: [hosein.seraj11@gmail.com]  
-🔗 GitHub: [https://github.com/YOUR_GITHUB_USERNAME](https://github.com/hosein-srj)
+🔗 GitHub: [https://github.com/hosein-srj](https://github.com/hosein-srj)
 
 ---
 
