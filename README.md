@@ -16,5 +16,3 @@ Key Features:
 
 Simply clone this repository and include the **`CircularBuffer.h`** file in your project.
 
-```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/CircularBuffer.git
