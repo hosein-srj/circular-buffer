@@ -17,7 +17,7 @@ This is a **thread-safe, templated circular buffer** implemented in C++ that sup
 Simply clone this repository and include the **`CircularBuffer.h`** file in your project.
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/CircularBuffer.git
+git clone https://github.com/hosein-srj/circular-buffer.git
 ```
 
 Include the header file in your C++ project:
