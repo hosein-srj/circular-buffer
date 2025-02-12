@@ -109,25 +109,6 @@ buffer.reset();  // Clears all stored data
 
 ---
 
-## Why `std::copy` Instead of `memcpy`?
-
-1. **Type-Safety**: `std::copy` ensures correct handling of data types, while `memcpy` operates on raw bytes.
-2. **Works with Non-POD Types**: `std::copy` supports objects with custom copy constructors, unlike `memcpy`.
-3. **Avoids Undefined Behavior**: Unlike `memcpy`, `std::copy` handles overlapping memory correctly.
-4. **Performance**: Modern compilers optimize `std::copy` to be as fast as `memcpy` for trivial types.
-
-✅ **Example of Safe Copying**
-```cpp
-std::copy(buffer.begin() + head, buffer.begin() + head + first_part, buffer.begin());
-```
-🚨 **Unsafe memcpy Alternative**
-```cpp
-memcpy(buffer.data() + head, data, first_part * sizeof(int16_t));
-```
-**Why?** If the type changes (e.g., `int16_t` → `float`), `memcpy` will break.
-
----
-
 ## License
 
 This project is licensed under the **MIT License**. Feel free to use and modify.
@@ -148,8 +129,8 @@ If you’d like to contribute:
 ## Author
 
 Developed by **[Your Name]**  
-📧 Email: [YourEmail@example.com]  
-🔗 GitHub: [https://github.com/YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME)
+📧 Email: [hosein.seraj11@gmail.com]  
+🔗 GitHub: [https://github.com/YOUR_GITHUB_USERNAME](https://github.com/hosein-srj)
 
 ---
 
@@ -159,11 +140,8 @@ Developed by **[Your Name]**
 ✔️ **Code Usage with Examples**  
 ✔️ **Thread-Safety Explanation**  
 ✔️ **Performance Considerations**  
-✔️ **Why `std::copy` Instead of `memcpy`?**  
 ✔️ **License & Contribution Guide**  
 
----
 
-This README is now **detailed, well-structured, and ready for GitHub**. Let me know if you need further customization! 🚀😃
 
 
