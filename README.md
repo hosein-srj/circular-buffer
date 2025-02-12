@@ -109,7 +109,7 @@ If you’d like to contribute:
 
 ## Author
 
-Developed by **[Your Name]**  
+Developed by **[Hosein Seraj]**  
 📧 Email: [hosein.seraj11@gmail.com]  
 🔗 GitHub: [https://github.com/hosein-srj](https://github.com/hosein-srj)
 
